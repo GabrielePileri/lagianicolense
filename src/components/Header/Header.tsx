@@ -4,7 +4,9 @@ import logo from "./img/logo.png";
 function Header() {
   return (
     <div className="header">
-      <img src={logo} className="logo" />
+      <div>
+        <img src={logo} className="logo" />
+      </div>
       <h1 className="title">La Gianicolense</h1>
       <div className="right-content">
         <p className="right-content-p">Menù</p>

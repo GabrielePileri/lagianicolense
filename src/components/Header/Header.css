@@ -8,8 +8,10 @@ body {
 }
 
 .logo {
-  scale: 1;
-  align-self: flex-start;
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
