@@ -1,0 +1,24 @@
+.hero {
+  height: auto;
+  width: 100%;
+}
+
+.hero-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  background-color: black;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+
+.hero-content {
+  text-align: center;
+  position: absolute;
+}
