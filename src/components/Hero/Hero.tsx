@@ -1,4 +1,4 @@
-import image from "./img/cinematic.jpg";
+import image from "./img/cinematic1.png";
 import "./Hero.css";
 
 function Hero() {
@@ -10,7 +10,6 @@ function Hero() {
       <div className="hero-div">
         <img src={image} className="hero-img" />
       </div>
-
     </div>
   );
 }
