@@ -34,13 +34,38 @@
   justify-content: center;
   width: 100%;
   height: 43vw;
-  font-size: 2vw;
+}
+
+.h1-hero {
+  margin: 0;
+  font-size: 4.25vw;
 }
 
 .p-hero {
   font-family: lato, sans-serif;
   text-align: center;
   color: white;
-  margin-top: 0;
+  margin: 0;
   padding: 0;
+  margin-bottom: 1vw;
+  margin-top: 0.5vw;
+  font-size: 2vw;
+}
+
+.btn-prenota {
+  border-radius: 30px;
+  padding: 0.5vw;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  background-color: rgba(88, 88, 88, 0.364);
+  color: white;
+  font-size: 1.25vw;
+  margin-top: 0.8vw;
+  border-color: orange;
+  border-style: solid;
+}
+
+.btn-prenota:hover {
+  background-color: orange;
+  transition: background-color 0.3s ease-in-out;
 }
