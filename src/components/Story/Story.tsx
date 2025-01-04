@@ -20,7 +20,7 @@ function Story() {
   }, []);
   return (
     <>
-      <div className="story">
+      <div className="story" id="story">
         <div className="left-content-story">
           <h1>
             La nostra <span>storia</span>
