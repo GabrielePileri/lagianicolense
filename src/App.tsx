@@ -8,16 +8,19 @@ import { gsap } from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import Feedbacks from "./components/Feedbacks/Feedbacks.tsx";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 function App() {
+  Feedbacks("Ottima pizza!", 5, "Mario Rossi");
   return (
     <>
       <Header />
       <Hero />
       <Story />
       <Pizze />
+      function Feedbacks("CIao", 5, "ciao");
     </>
   );
 }
