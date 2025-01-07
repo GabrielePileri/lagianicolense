@@ -15,7 +15,7 @@ function Feedbacks() {
               <h1 className="card-name">FULL NAME</h1>
             </div>
             <p className="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
+              Gabriele ipsum, dolor sit amet consectetur adipisicing elit. Nemo,
               quidem distinctio! Natus minima suscipit illo ea nam mollitia,
               iure asperiores hic? Labore eos, amet aut dolorum officia odio
               ducimus temporibus eligendi! Corporis suscipit voluptatem
