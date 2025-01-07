@@ -1,0 +1,73 @@
+.feedbacks {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+  height: 30vw;
+  width: 25%;
+  margin-left: 3vw;
+  overflow-x: scroll;
+  flex-direction: column;
+  scroll-snap-type: x mandatory;
+}
+
+.feedbacks section {
+  height: 30vw;
+  scroll-snap-align: center;
+}
+
+.card-header {
+  padding-top: 0.05vw;
+}
+
+.card {
+  width: 100%;
+  height: 30vw;
+  margin-right: 0;
+  padding: 0;
+  border-radius: 40px;
+  box-shadow: 0 0 1vw rgba(254, 254, 254, 0.543);
+  background-color: #454545;
+}
+
+.card-name {
+  font-size: 1.5vw;
+  color: #fff;
+  margin: 0;
+  font-family: Lato, sans-serif;
+  margin-left: 2vw;
+}
+
+.stelle {
+  display: flex;
+  margin-top: 2vw;
+  margin-left: 1.5vw;
+  justify-items: space-between;
+}
+
+.stella {
+  background-color: greenyellow;
+  height: 1vw;
+  width: 1vw;
+  align-self: center;
+  border-radius: 100px;
+  margin-right: 0.5vw;
+}
+
+.card-text {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  margin: 1.2vw;
+  text-justify: inter-cluster;
+}
+
+.name {
+    font-size: 1vw;
+    color: #fff;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    margin-left: 2vw;
+}
+
+.name h1 {
+    justify-self: center;
+}
