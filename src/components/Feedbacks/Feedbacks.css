@@ -6,13 +6,18 @@
   width: 25%;
   margin-left: 3vw;
   overflow-x: scroll;
+  overflow-y: hidden;
   flex-direction: column;
   scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  justify-content: space-between;
 }
 
 .feedbacks section {
+  scroll-snap-stop: always;
   height: 30vw;
-  scroll-snap-align: center;
+  scroll-snap-align: end;
+  margin-right: 10px;
 }
 
 .card-header {
@@ -25,7 +30,6 @@
   margin-right: 0;
   padding: 0;
   border-radius: 40px;
-  box-shadow: 0 0 1vw rgba(254, 254, 254, 0.543);
   background-color: #454545;
 }
 
@@ -39,7 +43,7 @@
 
 .stelle {
   display: flex;
-  margin-top: 2vw;
+  margin-top: 1vw;
   margin-left: 1.5vw;
   justify-items: space-between;
 }
@@ -58,16 +62,4 @@
   font-family: Lato, sans-serif;
   margin: 1.2vw;
   text-justify: inter-cluster;
-}
-
-.name {
-    font-size: 1vw;
-    color: #fff;
-    margin: 0;
-    font-family: Lato, sans-serif;
-    margin-left: 2vw;
-}
-
-.name h1 {
-    justify-self: center;
 }

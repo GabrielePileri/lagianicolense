@@ -29,9 +29,6 @@ function Feedbacks() {
               doloremque ut.
             </p>
           </div>
-          <div className="name">
-            <h1>Maps</h1>
-          </div>
         </div>
       </section>
       <section>
