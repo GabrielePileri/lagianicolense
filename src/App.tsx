@@ -9,7 +9,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 import FeedText from "./components/Feedbacks/FeedText.tsx";
-import Feedbacks from "./components/Feedbacks/Feedbacks.tsx";
 // import FeedbacksNewmtd from "./components/Feedbacks/FeedbacksNewmtd.tsx";
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
@@ -21,8 +20,7 @@ function App() {
       <Hero />
       <Story />
       <Pizze />
-      <FeedText text="lorem"/>
-      <Feedbacks />;
+      <FeedText />
     </>
   );
 }
