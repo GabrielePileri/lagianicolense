@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .logo-div {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin: 0rem;
+  height: 3.75rem;
+  align-self: flex-start;
+  overflow: hidden;
+  width: 3.75rem; /* Opzionale: per adattare la larghezza */
+  /* background-color: #fa4444;
+} /*
+
+.logo {
+  height: 70px;
+  width: 70px;
+  padding: 0;
+  margin: 0;
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  margin: 0rem;
+  height: 3.75rem;
+  align-self: flex-start;
+  overflow: hidden;
+  width: 100%; /* Opzionale: per adattare la larghezza */
+  background-color: #fa4444;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 0; /* Reset totale dei margini */
+  padding: 0;
+  margin-left: 1rem; /* Mantieni solo il margine voluto */
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.right-content-p {
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0; /* Reset totale dei margini */
+  padding: 0;
+  margin-left: 1rem; /* Mantieni solo il margine voluto */
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+  border-radius: 5px; /* Angoli arrotondati */
+  cursor: pointer; /* Indica che sono cliccabili */
+  color: white; /* Cambia il colore del testo */
+  padding: 0.5rem 1rem;
+}
+
+.right-content {
+  display: flex;
+  margin-left: auto; /* Spazio libero a destra */
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.right-content p:hover {
+  background-color: rgba(200, 200, 200, 0.34); /* Effetto hover */
+}
